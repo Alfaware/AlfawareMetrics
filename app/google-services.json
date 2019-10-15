@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "67125262947",
+    "firebase_url": "https://alfaware-programming-metrics.firebaseio.com",
+    "project_id": "alfaware-programming-metrics",
+    "storage_bucket": "alfaware-programming-metrics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67125262947:android:253ed730666bdcdb321656",
+        "android_client_info": {
+          "package_name": "alfaware.progme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67125262947-00uggq19j9drp5u326aokq9lia4ide4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alfaware.progme",
+            "certificate_hash": "c52b8b8932c41cb7cd413ddb6cc69443120b5a43"
+          }
+        },
+        {
+          "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwa4IjeU1dDk4qBKa1DTqV6E4ADpzEyCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67125262947:android:8bb41c21878dc2ba321656",
+        "android_client_info": {
+          "package_name": "alfaware.testApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67125262947-kkmj73oohlngsgnkkv4a1iu3pnitahg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alfaware.testApp",
+            "certificate_hash": "c52b8b8932c41cb7cd413ddb6cc69443120b5a43"
+          }
+        },
+        {
+          "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwa4IjeU1dDk4qBKa1DTqV6E4ADpzEyCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67125262947:android:a4fcdb373caaf89e321656",
+        "android_client_info": {
+          "package_name": "joseluis.ch.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67125262947-r3ba8ev8u2hcbje0uil5quena2la2dq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "joseluis.ch.test",
+            "certificate_hash": "c52b8b8932c41cb7cd413ddb6cc69443120b5a43"
+          }
+        },
+        {
+          "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwa4IjeU1dDk4qBKa1DTqV6E4ADpzEyCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67125262947-a19m36njferak7nphdtf2q5re4mm967f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

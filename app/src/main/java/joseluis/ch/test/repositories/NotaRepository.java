@@ -30,7 +30,7 @@ public class NotaRepository {
     public void subscribeList(MutableLiveData<ListResult<Nota>> notas) {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child(FirebaseReference.NOTAS);
 
-        reference.addValueEventListener(new ValueEventListener() {
+        reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 notas.getValue().getResult().getData().clear();

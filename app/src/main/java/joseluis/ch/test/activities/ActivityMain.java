@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
@@ -33,6 +34,12 @@ public class ActivityMain extends AppCompatActivity {
         init();
         setListeners();
         setObservers();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        viewModel.getNotas(null);
     }
 
     private void init() {
@@ -101,10 +108,9 @@ public class ActivityMain extends AppCompatActivity {
         viewModel.addNota(nota);
     }
 
-
     private void chuckActivity() {
         Intent intent = new Intent(getApplicationContext(), ChuckNorrisActivity.class);
-        startActivity(intent);
+        startActivityForResult(intent, 0);
     }
 
 }

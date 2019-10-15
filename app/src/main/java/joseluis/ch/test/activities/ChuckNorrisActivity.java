@@ -1,5 +1,6 @@
 package joseluis.ch.test.activities;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -93,6 +94,8 @@ public class ChuckNorrisActivity extends AppCompatActivity {
             } else if (nota.getResult().getData() != null) {
                 Toast.makeText(getApplicationContext(), nota.getResult().getData().getTitulo() + "Fue agregado", Toast.LENGTH_SHORT).show();
                 viewModel.setStatus(Status.STATUS_DONE);
+                setResult(Activity.RESULT_OK);
+                finish();
             }
         });
     }
